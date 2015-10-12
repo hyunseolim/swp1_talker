@@ -1,5 +1,5 @@
 class Chat < ActiveRecord::Base
     
-      t.string :type
-      t.text :content
+      t.string :chat_type
+      t.text :chat_content
 end
