@@ -1,0 +1,24 @@
+<div class="learn-page">
+<h3>말을 한꺼번에 가르쳐보삼</h3>
+  <h3 class="title">가르치고 싶은 말을 입력하삼</h3>
+  <%= form_tag '/learninall', method: 'post', class: "learn-form" do %>
+    <center>질문1</center>
+    <textarea placeholder="니가 할말" name="ask1" rows="1" required></textarea>
+    <center>대답1</center>
+    <textarea placeholder="심심이가 대답할말" name="answer1" rows="1" required></textarea>
+
+    <center>질문2</center>
+    <textarea placeholder="니가 할말" name="ask2" rows="1" required></textarea>
+    <center>대답2</center>
+    <textarea placeholder="심심이가 대답할말" name="answer2" rows="1" required></textarea>
+
+    <center>질문3</center>
+    <textarea placeholder="니가 할말" name="ask3" rows="1" required></textarea>
+    <center>대답3</center>
+    <textarea placeholder="심심이가 대답할말" name="answer3" rows="1" required></textarea>
+    <input type="submit" value="가르치기">
+  <% end %>
+  <a href="/">
+    <div class="back-button">심심이 페이지로</div>
+  </a>
+</div>
