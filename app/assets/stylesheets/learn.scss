@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .learn-page {
+  text-align: center;
   width: 100%;
   height: 100%;
   .title {
@@ -18,7 +19,7 @@
       display: block;
       padding: 10px 30px;
       margin: 20px auto;
-      font-size: 1.5em;
+      font-size: 1.0em;
       background-color: #333;
       color: white;
       border: none;
@@ -33,7 +34,7 @@
     display: table;
     padding: 10px 30px;
     margin: 0px auto;
-    font-size: 1.5em;
+    font-size: 1.0em;
     background-color: #333;
     color: white;
     border: none;

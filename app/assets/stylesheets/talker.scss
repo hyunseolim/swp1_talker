@@ -22,7 +22,7 @@
     }
   }
   .chat {
-    height: 92%;
+    height: 80%;
     padding: 10px;
     box-sizing: border-box;
     overflow-y: scroll;
@@ -37,7 +37,7 @@
           position: absolute;
           width: 40px;
           height: 40px;
-          background: image_url('bot.png');
+          background: image_url('robot.jpg');
           background-size: cover;
           border-radius: 50%;
         }
@@ -83,7 +83,7 @@
           right: 0;
           width: 40px;
           height: 40px;
-          background: image_url('default.png');
+          background: image_url('menggu.jpg');
           background-size: cover;
           border-radius: 50%;
         }
@@ -125,7 +125,7 @@
     box-shadow: 0 5px 5px 5px #999;
     z-index: 10;
     input[type=text] {
-      width: 85%;
+      width: 80%;
       height: 43px;
       padding: 15px 10px;
       font-size: 15px;
@@ -134,7 +134,7 @@
       box-sizing: border-box;
     }
     input[type=submit] {
-      padding: 10px;
+      padding: 7px;
       background-color: #F9E81E;
       border: none;
       box-sizing: border-box;
